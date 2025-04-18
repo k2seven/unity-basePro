@@ -1,0 +1,7 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" 
+         xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement class="container">
+        <ui:Label name="my-lable" text="hello test" class="my-lable"/>
+        <ui:Button name="my-button" text="Click Me" class="my-button" />
+    </ui:VisualElement>
+</ui:UXML>

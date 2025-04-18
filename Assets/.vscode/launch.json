@@ -1,0 +1,17 @@
+{
+    "configurations": [
+    {
+        "type": "emmylua_new",
+        "request": "launch",
+        "name": "EmmyLua New Debug",
+        "host": "localhost",
+        "port": 7771,
+        "ext": [
+            ".lua",
+            ".lua.txt",
+            ".lua.bytes"
+        ],
+        "ideConnectDebugger": false
+    }
+    ]
+}

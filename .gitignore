@@ -1,0 +1,75 @@
+# =============== #
+# Unity 项目忽略规则
+# =============== #
+
+# Unity 生成的文件和目录
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+
+# 自动生成的 Visual Studio / MonoDevelop 项目文件
+/*.csproj
+/*.unityproj
+/*.sln
+/*.suo
+/*.user
+/*.userprefs
+/.vs/
+
+# Unity Asset Tool cache
+# /[Aa]ssets/AssetStoreTools*
+
+# Unity 插件（可能需要部分保留）
+# /[Aa]ssets/[Pp]lugins/[Aa]ndroid.meta
+# /[Aa]ssets/[Pp]lugins/[Ii]OS.meta
+
+# Unity 包管理器目录
+/[Pp]ackages/
+# 但保留 manifest 文件（重要！）
+!/[Pp]ackages/manifest.json
+!/[Pp]ackages/packages-lock.json
+
+# 日志文件
+/*.log
+/*.log.*
+
+# Unity Collaborate 文件
+# /[Uu]nit[yY]Collaborate/
+
+# =============== #
+# 项目设置选择性忽略（根据团队需求调整）
+# =============== #
+
+# 用户特定设置（不共享）
+/[Pp]rojectSettings/EditorUserSettings.asset
+
+# =============== #
+# 操作系统和编辑器特定文件
+# =============== #
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+ehthumbs*.db
+
+# Linux
+*~
+
+# =============== #
+# 其他开发工具生成文件
+# =============== #
+
+# JetBrains IDE
+.idea/
+*.iml
+
+# VS Code
+# .vscode/
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json

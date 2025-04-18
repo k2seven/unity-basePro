@@ -1,0 +1,13 @@
+﻿.container {
+    padding: 20px;
+}
+.my-button {
+    width: 120px;
+    height: 40px;
+    background-color: #007acc;
+    color: white;
+    border-radius: 4px;
+}
+.my-button:hover {
+    background-color: #0086e6;
+}

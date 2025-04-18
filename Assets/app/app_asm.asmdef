@@ -1,0 +1,15 @@
+{
+    "name": "app_asm",
+    "references": [
+        "GUID:ecaed8791e0cd9b40b6ca96c4d6c60a4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
